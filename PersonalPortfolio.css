@@ -1,0 +1,47 @@
+@media screen and (max-width: 600px) {
+    .topnav a {
+    float: none;
+    width: 100%;
+    }
+  }
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+  *{
+      box-sizing: border-box;
+      margin:0;
+      padding:0;
+      background-color: #02866a;
+    }
+    
+    body{
+      font-family: "Trebuche MS", Helvetica, sans-serif;
+    }
+
+    #welcome-section{
+      width: 100%;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      background-color:black;
+    }
+    
+    li, a{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #ecf0f1;
+      text-decoration: none;
+      background-color: none;
+    }
+
+    .navbar{
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left:0;
+    }
+    #links-cintainer{
+      text-align: center;
+    }
